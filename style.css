@@ -112,3 +112,24 @@ font-weight: 700;
 .nav-cart i{
     font-size:30px; 
 }
+/* pannel */
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-opts p{
+ display: inline;
+ font-size:14px;
+ margin:5px 0px 6px;
+ padding:8px 9px;
+ width:70%;
+}
+.panel-opts p:hover {
+    border:2px solid white;
+}
