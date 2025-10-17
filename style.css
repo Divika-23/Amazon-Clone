@@ -133,3 +133,25 @@ font-weight: 700;
 .panel-opts p:hover {
     border:2px solid white;
 }
+/* hero-section */
+
+.hero-section{
+      width:100%;
+      height:400px; 
+    /* height:auto;
+    width:auto;   */
+    background-image:url("hero-image.jpg");
+    background-size:cover;
+}
+
+/* shop-section */
+
+.shop-section1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    /* height:1000px; */
+
+
+}
