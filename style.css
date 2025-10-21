@@ -262,4 +262,61 @@ font-weight: 700;
     
 
 }
+img1{
+    width:200px;
+    height:200px;
+    background-image: url("box3-1.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.img2{
+    width:200px;
+    height:200px;
+    background-image: url("box3-2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+
+}
+
+ .img3{
+    width:200px;
+    height:200px;
+    background-image: url("box3-3.jpg");
+    background-size: cover;
+    margin-right: 20px;
+
+ }
+
+ .img4{
+    width:200px;
+    height:200px;
+    background-image: url("box3-4.jpg");
+    background-size: cover;
+    margin-right: 20px;
+
+ }
+ .img5{
+    width:200px;
+    height:200px;
+    background-image: url("box3-5.jpg");
+    background-size: cover;
+    margin-right: 20px;
+ }
+
+ .img6{
+    width:200px;
+    height:200px;
+    background-image: url("box3-6.jpg");
+    background-size: cover;
+    margin-right: 20px;
+ }
+
+ .sevenimg{
+    width:200px;
+    height:200px;
+    background-image: url("sevenimg.jpg");
+    background-size: cover;
+    margin-right: 20px;
+ }
+
 
