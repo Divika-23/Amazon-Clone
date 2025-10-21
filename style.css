@@ -4,6 +4,10 @@
     font-family:arial;
 
 }
+a{
+    text-decoration: none;
+
+}
 
 .navbar{
     height:60px;
