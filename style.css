@@ -341,3 +341,16 @@ img1{
 }
 
 
+
+
+
+
+.logo2{
+    background-color: #222f3d;
+    background-image: url("amazon-logo.png");
+     height:40px; 
+   width:115px;
+    background-size:cover;
+}
+
+
