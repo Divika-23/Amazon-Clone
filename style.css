@@ -320,3 +320,24 @@ img1{
  }
 
 
+ footer{
+    margin-top: 5px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size:15px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
