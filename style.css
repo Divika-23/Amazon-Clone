@@ -353,4 +353,23 @@ img1{
     background-size:cover;
 }
 
+.lang{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid white;
+    border-radius: 4px;
+    margin:30px;
+    padding:10px 10px 10px 10px;
+}
+.lang i{
+    opacity: 0.9;
+
+}
+.lang p{
+    padding-left:15px;
+    color: #DDDDDD;
+    padding:2px 18px 2px 18px;
+}
+
 
