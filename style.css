@@ -156,44 +156,6 @@ font-weight: 700;
     justify-content: space-evenly;
     background-color: #e2e7e6;
     /* height:1000px; */
-
-
-}
-/* Container for all items */
-   .container {
-    display: flex;             /*Flexbox layout*/
-     /* flex-wrap: wrap;       */
-         /* Allows wrapping items to new rows */
-    justify-content:center;
-     /* Centers content horizontally */
-    gap: 20px;               
-      /* Space between boxes */
-    /* border:2px dotted black; */
-    height:auto;
-    width:auto;
-}
-
-/* Individual item */
-.item {
-    border-radius: 5px;        /* Rounded corners */
-    width: 100%;            /* Controls the box width */
-    justify-content:space-around;
-}
-
-.item img {
-    width: 100%;             /* Makes image fill the box */
-    height: auto;              /* Keeps image proportions */
-    display: flex;
-    /* margin-bottom:10px;  */
-       /* Adds space between image and text */
-    
-}
-
-.item p {
-    font-size: 14px;           /* Adjusts font size */
-    font-weight: bold;         /* Makes text bold */
-    color: #333;
-    margin-bottom: 10px;
 }
 
 
@@ -250,77 +212,101 @@ font-weight: 700;
     font-size:16px;
     margin: 20px 0px 0px 0px ;
     /* padding:0px 20px 0px 20px; */
-}
+} 
 
-.img{
-    /* width:200px;
-    height:200px; */
-    display:flex;
-    justify-content: space-evenly;
+.shop-section2{
+    width:100%;
+    height:400;
+
+    background-color: white;
     /* border:2px solid black; */
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.box-content2{
     margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.box-content2 p{
+color:#007185 ;
+margin-left:50px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+/* Common styles for all image boxes */
+.oneimg, .twoimg, .threeimg, .fourimg, .fiveimg, .siximg, .sevenimg {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+/* Individual background images */
+.oneimg   { background-image: url("oneimg.jpg"); }
+.twoimg   { background-image: url("twoimg.jpg"); }
+.threeimg { background-image: url("threeimg.jpg"); }
+.fourimg  { background-image: url("fourimg.jpg"); }
+.fiveimg  { background-image: url("fiveimg.jpg"); }
+.siximg   { background-image: url("siximg.jpg"); }
+.sevenimg { background-image: url("sevenimg.jpg"); }
+
+
+
+
+ .shop-section3{
+    width:100%;
+    height:400;
+
+    background-color: white;
+    margin-right:20px;
     
-
 }
-img1{
-    width:200px;
-    height:200px;
-    background-image: url("box3-1.jpg");
-    background-size: cover;
-    margin-right: 20px;
-}
-.img2{
-    width:200px;
-    height:200px;
-    background-image: url("box3-2.jpg");
-    background-size: cover;
-    margin-right: 20px;
-
+.box-content2{
+    /* margin:20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
- .img3{
-    width:200px;
-    height:200px;
-    background-image: url("box3-3.jpg");
-    background-size: cover;
-    margin-right: 20px;
+.box-content2 p{
+color:#007185 ;
+margin-left:50px;
+}
 
- }
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
 
- .img4{
-    width:200px;
-    height:200px;
-    background-image: url("box3-4.jpg");
-    background-size: cover;
-    margin-right: 20px;
+/* Common styles for all image boxes */
+.img1, .img2, .img3, .img4, .img5, .img6, .sevenimg {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
 
- }
- .img5{
-    width:200px;
-    height:200px;
-    background-image: url("box3-5.jpg");
-    background-size: cover;
-    margin-right: 20px;
- }
-
- .img6{
-    width:200px;
-    height:200px;
-    background-image: url("box3-6.jpg");
-    background-size: cover;
-    margin-right: 20px;
- }
-
- .sevenimg{
-    width:200px;
-    height:200px;
-    background-image: url("sevenimg.jpg");
-    background-size: cover;
-    margin-right: 20px;
- }
+/* Individual background images */
+.img1 { background-image: url("box3-1.jpg"); }
+.img2 { background-image: url("box3-2.jpg"); }
+.img3 { background-image: url("box3-3.jpg"); }
+.img4 { background-image: url("box3-4.jpg"); }
+.img5 { background-image: url("box3-5.jpg"); }
+.img6 { background-image: url("box3-6.jpg"); }
+.sevenimg { background-image: url("sevenimg.jpg"); }
 
 
- footer{
+
+/* footer */
+footer{
     margin-top: 5px;
 }
 .foot-panel1{
@@ -339,7 +325,6 @@ img1{
     display:flex;
     justify-content: space-evenly;
 }
-
 ul{
     margin-top:20px;
 }
@@ -360,9 +345,6 @@ ul a{
     align-items: center; 
    
 }
-
-
-
 
 .logo2{
     background-color: #222f3d;
@@ -391,7 +373,6 @@ ul a{
     padding:2px 18px 2px 18px;
 }
 
-
 .foot-panel4{
     background-color: #0f1111;
     color:white;
@@ -409,5 +390,61 @@ padding-top: 5px;
 
 }
 
+
+/* Container for all items */
+   .container {
+    display: flex;             /*Flexbox layout*/
+     /* flex-wrap: wrap;       */
+         /* Allows wrapping items to new rows */
+    justify-content:center;
+     /* Centers content horizontally */
+    gap: 20px;               
+      /* Space between boxes */
+    /* border:2px dotted black; */
+    height:auto;
+    width:auto;
+}
+
+/* Individual item */
+.item {
+    border-radius: 5px;        /* Rounded corners */
+    width: 100%;            /* Controls the box width */
+    justify-content:space-around;
+}
+
+.item img {
+    width: 100%;             /* Makes image fill the box */
+    height: auto;              /* Keeps image proportions */
+    display: flex;
+    /* margin-bottom:10px;  */
+       /* Adds space between image and text */
+    
+}
+
+.item p {
+    font-size: 14px;           /* Adjusts font size */
+    font-weight: bold;         /* Makes text bold */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Hover effect for all images in the section */
+.img1, .img2, .img3, .img4, .img5, .img6, .img7,.oneimg, .twoimg, .threeimg, .fourimg, .fiveimg, .siximg, .sevenimg {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.img1:hover, .img2:hover, .img3:hover, 
+.img4:hover, .img5:hover, .img6:hover, .img7:hover ,.oneimg:hover, .twoimg:hover, .threeimg:hover, .fourimg:hover, .fiveimg:hover, .siximg:hover, .sevenimg:hover{
+  transform: scale(1.03); /* zoom slightly */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* add soft shadow */
+}
+
+img[src$=".jpg"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
 
 
