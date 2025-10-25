@@ -6,7 +6,6 @@
 }
 a{
     text-decoration: none;
-
 }
 
 .navbar{
@@ -22,7 +21,7 @@ a{
     width:128px;
 }
 .logo{
-    background-image: url("amazon-logo.png");
+    background-image: url("images/amazon-logo.png");
     height:50px;
     width:110%;
     background-size:cover;
